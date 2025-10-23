@@ -13,8 +13,8 @@ app.get("/api/pedido", async (req, res) => {
 💰 Total: $${total}
   `;
 
-  const token = "AQUI_TU_TOKEN";
-  const chat_id = "AQUI_TU_CHAT_ID";
+  const token = "8332480036:AAFhc36gojNnIK8qgFLy3DSTqIClqKFmr5U";
+  const chat_id = "-1003174390779";
 
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
   const params = {
