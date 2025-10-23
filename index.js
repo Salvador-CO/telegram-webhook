@@ -7,10 +7,13 @@ app.get("/api/pedido", async (req, res) => {
   const { nombre = "Cliente", contacto = "No especificado", total = 0 } = req.query;
 
   const mensaje = `
-📦 *Nuevo Pedido Recibido!*
+   <b>🎉 ¡NUEVO PEDIDO REGISTRADO! 📦</b> 
+    ---------------------------------------------
 👤 Cliente: ${nombre}
 📞 Contacto: ${contacto}
 💰 Total: $${total}
+---------------------------------------------
+    <i>Revisa el panel de administración ahora.</i>
   `;
 
   const token = "8332480036:AAFhc36gojNnIK8qgFLy3DSTqIClqKFmr5U";
